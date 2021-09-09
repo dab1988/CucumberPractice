@@ -1,4 +1,4 @@
-@All
+#@All
 Feature: MyAccount-Login Feature
   Description: This feature will test a Login feature
 	

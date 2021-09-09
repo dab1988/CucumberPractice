@@ -8,15 +8,13 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-features="FeaturesFile",
-glue="stepDefinition",
-tags={"@Smoke"},
+features={"D:\\ecclipse\\CucumberProject\\FeaturesFile\\order.feature"},
+glue={"stepDefinition"},
 dryRun=false,
-monochrome=true,
-strict=true,
-plugin="pretty"		
+//strict=true,
+monochrome=true
 )
-public class Runner 
+public class AmazonRunner
 {
 
 }
